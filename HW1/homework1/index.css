@@ -1,0 +1,273 @@
+header{
+	position: fixed;
+	top: 0px; left: 8px; right: 8px;
+	height: 80px;
+	background: linear-gradient(to bottom right, #B2D732, #66B032);
+	text-align: left;
+	margin: 0px;
+	z-index: 10;
+}
+
+
+#utdlogo{
+	float:left;
+	width:90px;
+	height:40px;
+	margin: 10px;
+	margin-bottom: 10px;
+}
+#logo{
+	float:left;
+	width:60px;
+	height:60px;
+	margin: 10px;
+	margin-bottom: 10px;
+}
+
+#map{
+	width:120px;
+	height:120px;
+	background:#66B032;
+	position:relative;
+	overflow: auto;
+	float:left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#map:hover{
+	box-shadow: 0 4px 8px black;
+}
+.music{
+	width: 120px;
+	height:120px;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	text-align: center;
+}
+#musicpic{
+	width: 120px;
+	height:120px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#musicpic:hover{
+	box-shadow: 0 4px 8px black;
+}
+
+iframe{
+	width=300px;
+	height=400px;
+}
+
+header ul{
+	float:left;
+	font-size: 20px;
+	padding: 0px;
+	border: 0px solid;
+	background-color: Transparent;
+	margin: 0px;
+	margin-top: 30px;
+}
+
+header li{
+	float:left;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 0px;
+	text-decoration: none;
+	font-size: 20px;
+	/*background-color: #B2D732;*/
+
+}
+header a{
+	color: #347B98;
+	font:bold;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+header a:hover{
+	color: black;
+	background-color: #347B98;
+
+}
+
+
+nav{
+	position: relative;
+	top: 80px;
+	left: 0px;
+	width: 150px;
+	height: 500px;
+	float:left;
+	color:white;
+	background-color: #66B032;
+	border: 2px solid #347B98;
+	padding: 0px 0px;
+	border-radius: 10px 10px;
+}
+nav ul{
+	font-size: 15px;
+	list-style-type: none;
+	margin: 10px 10px;
+	padding: 0px;
+
+}
+
+nav li{
+	text-align: center;
+	padding: 0px 0px;
+	text-decoration: none;
+}
+
+nav a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+nav a:hover{
+	color: #347B98;
+}
+
+.btmnav{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+	position:absolute;
+	/*align-items: center;*/
+	bottom: 20px;
+
+}
+.btmnav li{
+	float:left;
+	position: relative;
+	width: 40px
+}
+.btmnav li a:hover {
+		border: 1px solid transparent;
+}
+.iconlk{
+	height: 30px;
+	width: 30px;
+}
+aside{
+	position: relative;
+	top: 80px;
+	right: 0px;
+	width:150px;
+	height:500px;
+	color: red;
+	text-align: left;
+	float:right;
+	color:white;
+	background-color: #66B032;
+	border: 2px solid #347B98;
+	padding: 0px 0px;
+	z-index: 5;
+	border-radius: 10px 10px;
+
+}
+aside div{
+	text-align: center;
+	margin: 10px 10px;
+}
+
+
+#main{
+	position: relative;
+	top: 80px;
+	background-color: #F0F7D4;
+	margin: 0px;
+	margin-left: 158px;
+	margin-right: 158px;
+	border: 2px solid #347B98;
+	padding: 0px 20px;
+	min-height: 500px;
+	z-index: 0;
+
+}
+#profile{
+	float: left;
+	height: 280px;
+	width: 240px;
+	margin-right: 30px;
+
+}
+/*#about{
+	clear:left;
+}*/
+#main div{
+	margin: 30px 0px;
+	line-height: 2;
+	font-size: 17px;
+	margin-bottom: 10px;
+
+}
+
+
+#main table,th{
+	text-align: left;
+	width: 100%;
+	font-size: 15px;
+}
+
+
+body{
+	background-color: #F0F7D4;;
+}
+.ptitle{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+footer{
+	position: relative;
+	top: 100px;
+	left: 0px;
+	right: 0px;
+	margin:10px 0px;
+	color: #B2D732;
+	text-decoration: none;
+	height: 60px;
+	text-align: center;
+	z-index: 10;
+}
+footer a{
+	color: #B2D732;
+	text-decoration: none;
+}
+
+footer div{
+	padding: 20px;
+	background-color: #092834;
+	box-shadow: 0px 500px 0px 500px #092834;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}

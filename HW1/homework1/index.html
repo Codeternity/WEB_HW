@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Yangtao Hua's Homepage</title>
+	  <meta name="description" content="Yangtao Hua's Homepage">
+	  <meta name="keywords" content="Yangtao Hua; resume; Computer Science">
+	  <meta name="author" content="Huayt">
+		<meta charset="utf-8">
+	  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.jpeg"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="index.css" type="text/css" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<a href="http://www.utdallas.edu/index.html"><img id="logo" src="img/UTD_emblem_solid_flame.png" alt="UTD_logo" /></a>
+			<ul>
+				<li><a href="#about">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+
+			</ul>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="http://www.utdallas.edu/index.html"><img id="utdlogo" src="img/mountain.png" alt="UTD_logo" /></a></li>
+				<li><a href="https://www.w3schools.com/html/html5_intro.asp">HTML</a></li>
+				<li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+				<li><a href="https://www.w3schools.com/js/default.asp">Javascript</a></li>
+			</ul>
+			<ul class="btmnav">
+				<!-- <li><a href="https://www.w3schools.com/html/html5_intro.asp"><img class="iconlk" src="img/html5.png" alt="html5"></a></li> -->
+				<li><a href="https://www.linkedin.com/"><img class="iconlk" src="img/linkedin.png" alt="linkedin"></a></li>
+				<li><a href="https://twitter.com/"><img class="iconlk" src="img/twitter.png" alt="twitter"></a></li>
+				<li><a href="https://www.facebook.com/"><img class="iconlk" src="img/facebook.png" alt="facebook"></a></li>
+			</ul>
+		</nav>
+
+		<aside>
+			<div id="map_music">
+				<div id="map"></div><p>Location</p>
+
+				<div class="music"><a href="https://www.youtube.com/watch?v=ypQZV03l80g"><img id="musicpic" src="img/music.png" alt="music.png"/>
+					<p>Musics</p>
+				</a></div>
+			</div>
+		</aside>
+
+		<div id="main">
+			<div id="about">
+
+				<img id="profile" src="img/yangtaohua.png" alt="profile">
+				<p class="ptitle">About</p>
+				<p>
+				Yangtao Hua is graduate student at UT Dallas and majors in Computer Science
+				with a concentration in Date Science. Now seeking a software engineering internship in web development.
+				<br><br><br>
+				</p>
+			</div>
+			<div id="skills">
+				<p class="ptitle">Skills</p>
+				<hr>
+				<p id="language">
+					Languages: C/C++ (7+ years), Java (2+ years), Python, SQL; <br>
+				</p>
+				<p id="tool">
+					Mobile Protocols and tools: TD-SCDMA, LTE L3 (RRM&amp;RRC) and L1 (PHY) protocols, Trace 32, TM500;
+					<br>
+				</p>
+				<p id="other">
+					Other: LINUX, ARM, MySQL, Visual Studio, TomCat, Eclipse, AWS, Bullseye, Git, CC&amp;CQ;
+				<br>
+			</div>
+			<div id="projects">
+				<p class="ptitle">Projects</p>
+				<hr>
+				<h3>Ericsson Modem Chip M7450 Development (language: C/C++):</h3>
+				<ul id="Ericproject">
+					<li>DImplemented Dedicated Channel of TD-S in Ericsson M7450 chip (supporting 5 modes of 3G and 4G LTE);</li>
+					<li>Improved attributes and operations of state machine during the UE (User Equipment) handover and connection;</li>
+					<li>Minimized the overall packet loss rate for the handover and uplink/downlink reconfiguration;</li>
+					<li>Implemented priority queue to solve the radio confliction and allow different users to book radio resource simultaneously;</li>
+				</ul>
+				<h3>Potevio eNodeB (Evolved Node B) LTE 3.0 Project (language: C/C++)</h3>
+				<ul id="potvproject">
+					<li>Designed and implemented the Unit Test and Integration Test for the eNodeB 3.0 project;</li>
+					<li>Realized PUCCH CQI/PMI/RI resources pool initialization, dynamic allocation and recycle;</li>
+					<li>Designed mobile measurements report collection system and to facilitate the UE tracking and network analysis;</li>
+					<li>Optimized Call process assignment procedure, minimized the access time delay from 200ms to 80ms;</li>
+				</ul>
+				<h3>Factory Temperature Monitor System (language: C, Java, Javascript)</h3>
+				<ul id="javaproject">
+					<li>Programmed the CGI on BOA Web server running on the ARM9 Board with uCLinux system;</li>
+					<li>Implement PC-based real time measurement system to interact with web server using Java and JDBC;</li>
+
+				</ul>
+			</div>
+
+			<div id="contact">
+				<h3>Contact</h3>
+
+				<div class="container">
+				  <form action="/action_page.php">
+				    <label for="fname">First Name</label>
+				    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				    <label for="lname">Last Name</label>
+				    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				    <label for="country">Country</label>
+				    <select id="country" name="country">
+				      <option value="china">China</option>
+				      <option value="india">India</option>
+				      <option value="usa">USA</option>
+				    </select>
+
+				    <label for="subject">Subject</label>
+				    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				    <input type="submit" value="Submit"/>
+				  </form>
+				</div>
+
+		</div>
+	</div>
+
+
+		<footer>
+			<div>
+				<p>Yangtao Hua |<a href="mailto:yxh172530@utdallas.edu"> yxh172530@utdallas.edu | (734)-223-4954</a></p>
+			</div>
+		</footer>
+
+
+		<script>
+			function myMap() {
+				var mapOptions = {
+				    center: new google.maps.LatLng(32.6, -96),
+				    zoom: 5,
+				    mapTypeId: google.maps.MapTypeId.HYBRID
+				}
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+			}
+		</script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr8bkSfJLkJOq8u-7YKv8x_0NpmEkafjk&callback=myMap"></script>
+	</body>
+</html>
